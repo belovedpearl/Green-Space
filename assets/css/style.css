@@ -137,4 +137,41 @@ header{
     font-size: 50%;
     color: white;
 }
+#brandCall #quote:hover{
+    background-color: white;
+    color: rgb(230, 32, 65);
+}
 
+/* Subheader */
+#contentbox{
+    text-align: center;
+    margin: 20px;
+    font-size: 120%;
+    width: 100%;
+    height: 500px;
+}
+#subheader{
+    color: #00A700;
+    margin: 25px;
+}
+#contentbox #statedlist .content1 .image{
+    width: 100%;
+    height: 160px;
+}
+
+#statedlist{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.content1{
+    background-color: #00A700;
+    width: 100%;
+    color: white;
+    margin: 4px;
+    height: 350px;
+    text-align: center;
+}
+.subject{
+    margin: 20px;
+}
