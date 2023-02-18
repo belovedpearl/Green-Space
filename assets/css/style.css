@@ -285,3 +285,14 @@ aside{
     float: right;
     margin-right: 270px;
 }
+
+/* Map */
+#mapspace{
+    background-color: #00A700;
+    width: 100%;
+    text-align: center;
+}
+#map{
+    width: 95%;
+    height: 250px;
+}
