@@ -447,7 +447,72 @@ footer #sociallinks{
 }
 
 
+/* Form */
 
+#form-section {
+    width: 95%;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+#form-section #formpic{
+    width: 100%;
+    background-image: url("../images/blog2.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    opacity: 0.7;
+}
+
+
+.signup-form {
+    margin: 0 auto;
+    color: white;
+    background-color: #00A700;
+    max-width: 60%;
+
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+}
+
+.text-input {
+    background: transparent;
+    display: block;
+    color: #fafafa;
+    width: 50%;
+    height: 30px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+*/
  /* Responsiveness on smaller screens */
  @media screen and (max-width: 1200px) {
  }

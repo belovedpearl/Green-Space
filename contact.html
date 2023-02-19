@@ -33,46 +33,52 @@
         </nav>
     </header>
 
-    <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="post">
+
+    <section id="form-section">
+        <form  class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
             
-                <h2>Send us your inquiry now</h2>
+            <h2>Send us your inquiry now</h2>
                 
-                <label for="fullName">Name</label>
-                <input id="fullName" type="text" name="first_name" required>
+            <label for="fullName">NAME</label>
+            <input id="fullName" type="text" name="first_name" class="text-input" placeholder="Name" required>
                 
-                <label for="phoneNo">Phone Number</label>
-                <input id="PhoneNo" type="number" name="phone_number" required>
+            <label for="phoneNo">PHONE NUMBER</label>
+            <input id="PhoneNo" type="number" name="phone_number" class="text-input" placeholder="Phone Number" required>
                 
-                <label for="email">Email Address</label>
-                <input id="email" name="email_address" type="email" required>
+            <label for="email">EMAIL ADDRESS</label>
+            <input id="email" name="email_address" type="email" class="text-input" placeholder="Email"  required>
                 
-                <label for="bed">Bed Renovation</label>
-                <input type="checkbox" name="bed" id="bed" value="bed_renovation" required>
+            <label for="bed">Bed Renovation</label>
+            <input type="checkbox" name="bed" id="bed" value="bed_renovation">
                 
-                <label for="mulch">Mulching</label>
-                <input type="checkbox" name="mulch" id="mulch" value="mulching">
+            <label for="mulch">Mulching</label>
+            <input type="checkbox" name="mulch" id="mulch" value="mulching">
                 
-                <label for="lawn">Lawn Installation</label>
-                <input type="checkbox" name="lawn" id="lawn" value="lawn_installation">
+            <label for="lawn">Lawn Installation</label>
+            <input type="checkbox" name="lawn" id="lawn" value="lawn_installation">
 
-                <label for="season">Seasonal care</label>
-                <input type="checkbox" name="season" id="season" value="seasonal_care">
+            <label for="season">Seasonal care</label>
+            <input type="checkbox" name="season" id="season" value="seasonal_care">
 
-                <label for="seed">Seeding and Sodding</label>
-                <input type="checkbox" name="seed" id="seed" value="seeding_and_sodding">
+            <label for="seed">Seeding and Sodding</label>
+            <input type="checkbox" name="seed" id="seed" value="seeding_and_sodding">
 
-                <label for="buy">Lawn Installation</label>
-                <input type="checkbox" name="buy" id="buy" value="sales">
+            <label for="buy">Lawn Installation</label>
+            <input type="checkbox" name="buy" id="buy" value="sales" >
+
+            <label for="message">FURTHER ENQUIRY</label>
+            <textarea id="message" name="message" rows="14" cols="50" class="text-input"  placeholder="Message"></textarea>
                 
-                <input type="submit" value="Let's Run!">
+            <input type="submit" value="Submit">
         
         </form>
         
 
-   
+        <div id="formpic">
+            
+        </div>
     
-
+    </section>
  
  
 
