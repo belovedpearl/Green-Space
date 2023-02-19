@@ -389,6 +389,65 @@ footer #sociallinks{
     font-size: small;
  }
 
+ /*..... Services Page .....*/
+#services{
+    width: 95%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+    font-family: Archivo,sans-serif;
+    color: #00A700;
+}
+#servicehead{
+    margin: 10px;
+    background-color: #00A700;
+    color: white;
+}
+#servicehead h2{
+    margin: 5px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+#servicehead p{
+    font-size: 130%;
+}
+
+#maincontent{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#maincontent .servicelist{
+    flex: 1 0 40%;
+    width: 50%;
+    height: 300px;
+    color: #00A700;
+    
+
+
+    margin: 20px 0 20px 0;
+    
+    align-content: center;
+    text-align: center;
+    
+}
+
+#maincontent .servicelist > div{
+    margin-top: 80px;
+    float: right;
+    width: 50%;
+}
+
+#maincontent .servicelist > img{
+    width: 50%;
+    height: 100%;
+}
+
+
+
  /* Responsiveness on smaller screens */
  @media screen and (max-width: 1200px) {
  }
