@@ -451,28 +451,23 @@ footer #sociallinks{
 
 #form-section {
     width: 95%;
-    height: 900px;
-    display: flex;
     margin: 0 auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/slide11.webp"); 
+    background-size: cover;
+    background-position: center; 
     
 }
-#form-section #formpic{
-    width: 100%;
-    background-image: url("../images/blog2.webp");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    opacity: 0.7;
-}
-
-
 .signup-form {
-    margin: 0 auto;
+    width: 40%;
+    height: 80%;
+    opacity: 0.8;
     color: white;
     background-color: #00A700;
-    max-width: 60%;
-
-    padding: 30px;
+    padding: 20px;   
 }
 
 .signup-form > h2 {
@@ -483,34 +478,52 @@ footer #sociallinks{
 }
 
 .text-input {
-    background: transparent;
     display: block;
-    color: #fafafa;
-    width: 50%;
-    height: 30px;
+    color: white;
+    width: 70%;
+    height: 35px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid white;
     border-radius: 2px;
+    padding: 2px;
+    font-size: 120%;
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: #00A700;
+}
+table{
+    margin: 10px 0 10px 0;
+}
+td {
+    padding-right: 10px;
+}
+textarea{
+    display: block;
+    color: white;
+    width: 70%;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 120%;
 }
 
-.join-button {
-    margin-top: 20px;
+input[type="submit"] {
+    margin-top: 10px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
+    font-size: 120%;
+    background-color: rgb(230, 32, 65);
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+input[type="submit"]:hover {
+    background-color: white;
+    color: rgb(230, 32, 65);
+    font-weight: 900;
 }
 */
  /* Responsiveness on smaller screens */
