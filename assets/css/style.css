@@ -168,7 +168,7 @@ header{
     background-color: #00A700;
     width: 100%;
     color: white;
-    margin: 4px;
+    margin: 10px;
     height: 380px;
     text-align: center;
     position: relative;
@@ -186,7 +186,7 @@ header{
     font-weight: 900;
     position: absolute;
     bottom: 10px;
-    right: 70px;
+    right: 100px;
     
 }
 .content1 a:hover{
@@ -222,10 +222,10 @@ header{
 
 .bloghighlight{
     background-color: white;
-    width: 50%;
+    width: 100%;
     color: #00A700;
     margin: 10px;
-    height: 370px;
+    height: 380px;
     text-align: center;
     overflow: hidden;
 }
@@ -525,7 +525,64 @@ input[type="submit"]:hover {
     color: rgb(230, 32, 65);
     font-weight: 900;
 }
-*/
+
  /* Responsiveness on smaller screens */
+
  @media screen and (max-width: 1200px) {
+    #menu li{
+        margin-left: 50px;
+    }
+    .content1 > p{
+        margin: 0 1px 0 1px;
+    }
+    #blogcontent{
+        width: 95%;
+        height: 450px;
+        margin: 0 auto;
+    }
+    
+ }
+
+ @media screen and (max-width: 800px) {
+    #logocontainer #name{
+        display: inline;
+        margin-top: 18px;
+        
+    }
+    #contentbox{
+        height: 100%;
+    }
+    #statedlist{
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        gap: 10px;
+    }
+    .content1{
+        width: 50%;
+        margin: 0 auto;
+       
+    }
+    #blog{
+        height: 100%;
+    }
+    #blogcontent{
+        flex-direction: column;
+        height: 100%;
+
+    }
+    
+    .bloghighlight{
+        height: 300px;
+        display: flex;
+        width: 80%;
+       
+    }
+    .blogimage{
+        width: 50%;
+        height: 250px;
+        margin: 20px;
+        
+    }
+
  }
