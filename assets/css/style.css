@@ -539,8 +539,7 @@ input[type="submit"]:hover {
         width: 95%;
         height: 450px;
         margin: 0 auto;
-    }
-    
+    } 
  }
 
  @media screen and (max-width: 800px) {
@@ -589,6 +588,27 @@ input[type="submit"]:hover {
     footer #subscribebtn{
         width: 12%;
     }
+
+    /* Form */
+.signup-form {
+    width: 60%;
+}
+table{
+    margin: 10px 0 10px 0;
+    width: 100%;
+}
+
+textarea{
+    margin: 5px 0 5px 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 2px;
+    font-size: 120%;
+}
+input[type="submit"] {
+    margin-top: 0;
+    padding: 10px 25px 10px 25px;
+}
 }
 
 @media screen and (max-width:500px){
@@ -705,4 +725,44 @@ footer #subscribebtn{
     padding: 8px;
 }
 
+ /*..... Services Page .....*/
+#maincontent{
+    flex-direction: column;
 }
+#maincontent .servicelist{
+    width: 100%;
+    display: flex;
+}
+#maincontent .servicelist > div{
+    margin-top: 0;
+}
+
+#maincontent .servicelist > img{
+    width: 50%;
+}
+      /* Form */
+#form-section{
+    height: 900px ;
+}
+.signup-form{
+    height: 85%;
+}
+table{
+    margin: 10px 0 10px 0;
+}
+
+td{
+    display: block;
+    margin: 5px;
+}
+textarea{
+    margin: 5px 0 5px 0;
+    width: 80%;
+}
+input[type="submit"] {
+    margin-top: 0;
+    padding: 10px 25px 10px 25px;
+}
+}
+
+
