@@ -22,7 +22,7 @@ header{
 #logocontainer{
     width: 50%;
 }
-#logocontainer #name{
+#logocontainer #logoname{
     display: inline-block;
     margin-top: 30px;
     color: #00A700;
@@ -576,13 +576,58 @@ input[type="submit"]:hover {
         height: 300px;
         display: flex;
         width: 80%;
-       
     }
     .blogimage{
         width: 50%;
         height: 250px;
         margin: 20px;
-        
     }
 
- }
+    .bloghighlight > div{
+       padding: 50px;
+    }
+    footer #subscribebtn{
+        width: 12%;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        flex-direction: column;
+        height: 10em;
+        align-items: center;
+    }
+    #logocontainer{
+        width: 100%;
+    }
+    #logocontainer #logoname{
+        display: inline-block;
+        margin-top: 50px;
+    }
+    
+    #menu li{
+        margin-left: 50px;
+    }
+    #logo{
+        width: 25%;
+    }
+    .active{
+        border-bottom: 1px solid black;
+     }
+    
+     #brandCall{
+         font-size: 130%;
+        letter-spacing: 2px;
+        
+    
+        width: 400px;
+        height: 250px;
+        right: 0;
+        position: absolute;
+        border-radius: 40%;
+    
+        color: white;
+        text-align: center;
+        
+    }
+}
