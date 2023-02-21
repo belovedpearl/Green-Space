@@ -666,20 +666,43 @@ input[type="submit"]:hover {
     .bloghighlight h4{
         margin: 4px;
     }
-    
     .readmore{
-        margin: 0 auto;
-        display: block;
-    
-        width: 40%;
-        height: 30px;
-        background-color: rgb(230, 32, 65);
-        
-        border-radius: 10px;
-        margin-top: 10px;
-    
-        font-weight: bold;
-        color: white;
+        width: 60%;
+        margin-top: 20px;
     }
-   
+
+    /* Contact */
+
+#contact{
+    height: 150px;
+    margin-top: 0;
+    padding: 5px;
+}
+#subject{
+    width: 100%;
+    padding: 0;
+    margin-left: 3px;
+}
+aside{
+    width: 200px;
+    margin-bottom: 10px;
+}
+#contact1{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#contact2{
+    margin-right: 100px;
+}
+/* Footer */
+
+footer #subscribe{
+    width: 60%;
+    padding: 8px;
+}
+footer #subscribebtn{
+    width: 30%;
+    padding: 8px;
+}
+
 }
