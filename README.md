@@ -1,108 +1,107 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Green Space
+[View the live project link here](https://github.com/belovedpearl/Green-Space).
 
-Welcome Oluwaseun Omisakin,
+**Table of Contents:**
+---
+---
+* [Project Description](#project-description)
+    * [Site Owner's Goal](#sitegoal)
+    * [Users Goal](#usersgoal)
+    * [Audience](#audience)
+* [Wireframes](#wireframes)
+    * [Initial Wireframes](#initial-wireframes)
+* [Features](#features)
+    * [Header](#header)
+    * [Footer](#footer)
+    * [Unified colour scheme](#unified-colour-scheme)
+    * [Blog section](#radio-buttons)
+    
+* [Accessbility](#accessibility)
+    * [Get a Quote section](#get-a-quote)
+    * [Services section](#services-section )
+    * [Contact Us](#contact-us)
+* [Design Choices](#design-choices)
+    * [Font](#font)
+    * [Unified Colour Schemes](#unified-colour-scheme)
+* [Technology, Frameworks and Programs](#technology-frameworks-and-programs)
+    * [Languages](#languages)
+    
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Testing](#testing)
+* [Credits](#credits)
+    * [Resources](#resources-used)
+    * [Acknowledgments](#acknowledgements)
+---
+## Project Description 
+---
+This project seeks to act as a point of accessing garden services provider(owners) and updates on gardening practice. It highlights the beauty we give to nature in ensuring our garden plants are green.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Site Owner's Goal
+---
+* Enable its first time user understand from its outlook what the site is about.
+* Interact with the users emphasizing *green nature*.
+* Promote nature to its users.
+* Showcase the services the users can get through the platform.
+* Get a quick quote for services required.
+* keep its users up to date with relevant updates in garden practice.
+* Promote peoples understanding of gardening through newsletter sent regularly. 
 
 ---
+### Users Goal
+---
 
-Happy coding!
+* Easily navigate and understand the website.
+* Have access to the full services that the owner provides.
+* Get updates about gardening.
+* A user can easily contact the service providers.
+* A user can easily see new blogs on the site.
+* Easily connect with the service providers across different platform.
+
+### Audience
+---
+
+Target audience for this project are *garden lovers* who understand the need to keep plant around them *green* all year *round* by using the right hands for services and staying connected to latest updates to garden. 
+
+## Wireframes
+---
+### Initial Wireframes
+---
+
+The main page presents the service to its users and highlights the services provided, an update section, contact section, location map and social media links. For ease of access, the main page has links that connects with the contact page to allow the user access the providers easily.
+
+##### Wireframe 1: The landing page
+ ![question-1](Wireframes/question-1.png)
+##### Wireframe 2: Services Page
+![question-2](Wireframes/question-2.png)
+##### Wireframe 3: Contact Page
+![question-3](Wireframes/question-3.png)
+##### Wireframe 4: Thank You page
+![question-4](Wireframes/question-4.png)
+<br>
+---
+## Features
+---
+* #### Header
+    * The header will feature the applications name and logo.
+* #### Footer
+    * The footer will feature 3 sections;
+       * A section to register for plants updates.
+       * Social media links.
+       * Copyright information.
+* #### Unified Colour Scheme
+ [Original colour pallete test using coolors.co](https://coolors.co/palette/05668d-427aa1-ebf2fa-679436-a5be00)
+    
+    Discussing the colour palette allowed us to think about the our audience and who it would appeal to, this was a first demo and we decided that muted coolours would be better suited as the greens came across quite aggressive and didn't communicate our concept as well as it could have done.
+ [Final colour pallete test using coolors.co](https://coolors.co/palette/49c6e5-54defd-fffbfa-00bd9d-8bd7d2)
+   
+    We believed that this colour palette situated itself better with our concept and theme. The meanings behind the colours blue and green refer to harmony and prosperity. The blue tint evokes trustworthiness and wisdom.
+
+## Accessibility
+---
+
+## Design Choices
+---
+* The design choice was dictated by my ability to use the knowledge gained from the first module of the course. While presenting challenges, it allowed me to achieve a further growth in understanding of the concepts taught better.
+* From the start of the program, I aimed to design a website that covers in detail concepts taught in the module.
