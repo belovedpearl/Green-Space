@@ -19,6 +19,7 @@ header{
     height: 7em;
     align-items: center;
     font-family: Roboto, sans-serif;
+    overflow: hidden;
 }
 #logocontainer{
     width: 50%;
@@ -456,7 +457,7 @@ footer #sociallinks{
     
 }
 .signup-form {
-    width: 40%;
+    width: 45%;
     height: 80%;
     opacity: 0.8;
     color: white;

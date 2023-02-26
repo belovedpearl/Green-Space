@@ -232,7 +232,6 @@ Steps I took to deplay my website;
 
 ## Testing
 ---
-
 * Lighthouse results: 
     * Performance = 100 
     * Accessibility = 97 
@@ -245,13 +244,15 @@ Steps I took to deplay my website;
 ## Credits
 ---
 
+* ReadMe layout inspiration from other Code Institute students from #peer-code-review forum and https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#development
 
 * Code institute's template: https://github.com/Code-Institute-Org/gitpod-full-template
 
+* Font Awesome: https://fontawesome.com/
 
-* ReadMe layout and inspiration from Code Institute students on #peer-code-review forum and
+* Fonts: https://fonts.google.com/
 
- https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md#deployment
+* Font pair: 
 
 * Fonts Awesome:
 
