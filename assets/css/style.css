@@ -177,7 +177,10 @@ header{
     text-align: center;
     margin-bottom: 10px;
 }
-.content1 a{
+.content1 a,
+#moreservice a,
+#salecontact,
+#getservice{
     text-decoration: none;
     margin-top: 5px;
     color: rgb(230, 32, 65);
@@ -189,6 +192,11 @@ header{
     background-color: rgb(230, 32, 65);
     color: white;
 }
+#moreservice a{
+    float: right;
+    margin-right: 70px;
+}
+
 .subject{
     margin: 20px;
     font-weight: 900;
@@ -400,12 +408,14 @@ footer #sociallinks{
     color: white;
 }
 #servicehead h2{
-    margin: 5px;
+    margin: 10px;
     font-weight: 900;
     letter-spacing: 4px;
+    color: rgb(230, 32, 65);
 }
 #servicehead p{
     font-size: 130%;
+    line-height: 25px;
 }
 
 #maincontent{
@@ -420,8 +430,6 @@ footer #sociallinks{
     width: 50%;
     height: 300px;
     color: #184E20;
-    
-
 
     margin: 20px 0 20px 0;
     
@@ -436,11 +444,17 @@ footer #sociallinks{
     width: 50%;
 }
 
+#maincontent .servicelist div > h3{
+    margin: 20px;
+}
+
 #maincontent .servicelist > img{
     width: 50%;
     height: 100%;
 }
-
+#maincontent .servicelist div > p{
+    margin-bottom: 20px;
+}
 
 /* Form */
 
