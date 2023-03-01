@@ -58,7 +58,8 @@ header{
     letter-spacing: 3px;
 }
 .active{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #184E20;
+    color: rgb(230, 32, 65);
  }
 
  /* Brand Message and background Image */
@@ -423,7 +424,6 @@ footer #sociallinks{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-
 }
 #maincontent .servicelist{
     flex: 1 0 40%;
@@ -456,7 +456,7 @@ footer #sociallinks{
     margin-bottom: 20px;
 }
 
-/* Form */
+/*......... Form..........*/
 
 #form-section {
     width: 95%;
@@ -470,7 +470,7 @@ footer #sociallinks{
     background-position: center; 
     
 }
-.signup-form {
+#contact-form {
     width: 45%;
     height: 80%;
     opacity: 0.8;
@@ -479,7 +479,7 @@ footer #sociallinks{
     padding: 20px;   
 }
 
-.signup-form > h2 {
+#contact-form > h2 {
     color: white;
     margin-bottom: 20px;
     text-align: center;
@@ -489,7 +489,7 @@ footer #sociallinks{
 .text-input {
     display: block;
     color: white;
-    width: 70%;
+    width: 80%;
     height: 35px;
     margin: 5px 0 20px 0;
     border: 1px solid white;
@@ -506,12 +506,13 @@ table{
 }
 td {
     padding-right: 10px;
+    font-size: 110%;
 }
 #message{
     display: block;
     color: white;
-    width: 70%;
-    margin: 5px 0 20px 0;
+    width: 80%;
+    margin: 5px 0 0 0;
     border: 1px solid white;
     border-radius: 2px;
     padding: 2px;
@@ -519,11 +520,12 @@ td {
 }
 
 input[type="submit"] {
-    margin-top: 10px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px 12px 5px 12px;
     text-align: center;
     font-size: 120%;
+    font-weight: 900;
     background-color: rgb(230, 32, 65);
     color: #fafafa;
     display: block;
@@ -535,7 +537,7 @@ input[type="submit"]:hover {
     font-weight: 900;
 }
 
- /* Responsiveness on smaller screens */
+ /*------------- Responsiveness on smaller screens----------------- */
 
  @media screen and (max-width: 1200px) {
     #menu li{
@@ -553,9 +555,11 @@ input[type="submit"]:hover {
 
  @media screen and (max-width: 800px) {
     #logocontainer #name{
-        display: inline;
         margin-top: 18px;
-        
+    }
+    
+    #menu li{
+        margin-left: 10px;
     }
     #contentbox{
         height: 100%;
@@ -567,10 +571,13 @@ input[type="submit"]:hover {
         gap: 10px;
     }
     .content1{
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
-       
     }
+    .content1 p{
+        margin-bottom: 10px;
+    }
+    
     #blog{
         height: 100%;
     }
@@ -583,7 +590,7 @@ input[type="submit"]:hover {
     .bloghighlight{
         height: 300px;
         display: flex;
-        width: 80%;
+        width: 95%;
     }
     .blogimage{
         width: 50%;
@@ -592,15 +599,19 @@ input[type="submit"]:hover {
     }
 
     .bloghighlight > div{
-       padding: 50px;
+       padding: 60px;
+    }
+    
+    footer #subscribe{
+        width: 30%;
     }
     footer #subscribebtn{
         width: 12%;
     }
 
     /* Form */
-.signup-form {
-    width: 60%;
+#contact-form {
+    width: 75%;
 }
 table{
     margin: 10px 0 10px 0;
@@ -623,34 +634,35 @@ input[type="submit"] {
 @media screen and (max-width:500px){
     header{
         flex-direction: column;
-        height: 10em;
-        align-items: center;
+        height: 15em; 
     }
     #logocontainer{
         width: 100%;
     }
-    #logocontainer #logoname{
-        display: inline-block;
-        margin-top: 50px;
-    }
-    
-    #menu li{
-        margin-left: 50px;
-    }
     #logo{
-        width: 25%;
+        float: none;
+        width: 70%;
+        height: 170px;
     }
-    .active{
-        border-bottom: 1px solid black;
-     }
-    
-     #brandCall{
-         font-size: 140%;
-        letter-spacing: 2px;
-        padding: 20px 0 0 10px;
-        width: 400px;
-        height: 200px;
-        right: 0; 
+    #menu{
+        padding-left: 0;
+    }
+    #menu li{
+        margin-left: 10px;
+    }   
+    #brandCall{
+        text-align: center;
+        font-size: 150;
+        width: 350px;
+        height: 280px;
+        opacity: 0.9;
+        right: 0;
+        position: absolute;
+        border-radius: 10px;   
+    }
+    #brandCall #quote{
+        width: 35%;
+        height: 35px;
     }
     #statedlist{
         width: 100%;
@@ -700,10 +712,56 @@ input[type="submit"] {
         margin-top: 20px;
     }
 
+    /*..... Services Page .....*/
+#maincontent{
+    flex-direction: column;
+}
+#maincontent .servicelist{
+    width: 100%;
+    display: flex;
+}
+#maincontent .servicelist > div{
+    margin-top: 0;
+}
+
+#maincontent .servicelist > img{
+    width: 50%;
+}
+      /* Form */
+
+#form-section{
+    height: 850px ;
+}
+#contact-form {
+    height: 90%;
+}
+.signup-form{
+    height: 85%;
+}
+.text-input{
+    width: 95%;
+}
+table{
+    margin: 10px 0 10px 0;
+}
+
+td{
+    display: block;
+    margin: 5px 0 5px 5px;
+}
+textarea{
+    margin: 5px 0 5px 0;
+    width: 95%;
+}
+input[type="submit"] {
+    margin-top: 5px;
+    padding: 10px 15px 10px 15px;
+}
+
     /* Contact */
 
 #contact{
-    height: 150px;
+    height: 170px;
     margin-top: 0;
     padding: 5px;
 }
@@ -734,44 +792,4 @@ footer #subscribebtn{
     padding: 8px;
 }
 
- /*..... Services Page .....*/
-#maincontent{
-    flex-direction: column;
 }
-#maincontent .servicelist{
-    width: 100%;
-    display: flex;
-}
-#maincontent .servicelist > div{
-    margin-top: 0;
-}
-
-#maincontent .servicelist > img{
-    width: 50%;
-}
-      /* Form */
-#form-section{
-    height: 900px ;
-}
-.signup-form{
-    height: 85%;
-}
-table{
-    margin: 10px 0 10px 0;
-}
-
-td{
-    display: block;
-    margin: 5px;
-}
-textarea{
-    margin: 5px 0 5px 0;
-    width: 80%;
-}
-input[type="submit"] {
-    margin-top: 0;
-    padding: 10px 25px 10px 25px;
-}
-}
-
-
