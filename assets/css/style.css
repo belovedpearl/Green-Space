@@ -59,7 +59,10 @@ header{
 }
 .active{
     border-bottom: 1px solid #184E20;
-    color: rgb(230, 32, 65);
+    background-color: rgb(230, 32, 65);
+    font-weight: 900;
+    color: white;
+    
  }
 
  /* Brand Message and background Image */
@@ -759,7 +762,6 @@ input[type="submit"] {
 }
 
     /* Contact */
-
 #contact{
     height: 170px;
     margin-top: 0;
